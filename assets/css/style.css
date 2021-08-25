@@ -7,6 +7,20 @@
 /*   Nav Styles  */
 nav {
     background-color: red;
+
+}
+
+ul {
+    display: inline-block;
+
+}
+
+#nav-list li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    font-size: 18px;
+    letter-spacing: 4px;
 }
 
 
