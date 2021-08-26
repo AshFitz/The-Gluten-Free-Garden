@@ -67,10 +67,30 @@ h1 {
 }
 
 
+/*  About Us Section Styles  */
+
+
+#about-heading {
+    text-align: center;
+    font-size: 40px;
+    color: #302402;
+    padding-bottom: 35px;
+}
+
+#about-text {
+    text-align: center;
+    font-size: 25px;
+    padding: 0 40px;
+    color: #302402;
+}
+
+
+
+
 /*  Footer Styles  */
 
 footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
