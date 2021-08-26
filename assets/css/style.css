@@ -6,21 +6,36 @@
 
 /*   Nav Styles  */
 nav {
-    background-color: red;
+    background-color: transparent;
 
 }
 
 ul {
     display: inline-block;
+    float: right;
+    padding: 65px 0;
+
 
 }
 
 #nav-list li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 15px;
     font-size: 18px;
-    letter-spacing: 4px;
+}
+
+#nav-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+#nav-list li a:hover {
+    color: brown;   
+}
+
+#logo {
+    height: 145px;
 }
 
 
@@ -33,10 +48,14 @@ h1 {
 
 
 #landing-img {
-
-    background-image: url("../images/breadbackground.jpg");
+    background-image: url(../images/breadbackground.jpg);
     height: 700px;
-    background-size: cover;
+    background-size: 100%;
+    position: relative;
+    top: -150px;
+    z-index: -1;
+    padding-top: 5px;
+    padding-bottom: 82px;
 }
 
 #landing-text {
