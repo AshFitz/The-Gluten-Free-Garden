@@ -85,6 +85,17 @@ h1 {
 }
 
 
+/*  About Us Section Styles  */
+
+#facts-heading {
+    text-align: center;
+    font-size: 40px;
+    color: #302402;
+    padding-bottom: 35px;
+}
+
+
+
 
 
 /*  Footer Styles  */
