@@ -4,6 +4,13 @@
     border: none;
 }
 
+.text-center {
+    text-align: center;
+}
+
+
+
+
 /*   Nav Styles  */
 nav {
     background-color: transparent;
@@ -104,8 +111,30 @@ h1 {
     color: #302402;
 }
 
+#fl-right {
+    text-align: center;
+    position: relative;
+    left: 580px;
+    bottom: 100px;
+}
 
+#fl-left {
+    text-align: center;
+    position: relative;
+    right: 580px;
+    bottom: 100px;
+}
 
+.rounded-img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.facts-container {
+    padding: 0 400px 0 400px;
+
+}
 
 
 /*  Footer Styles  */
