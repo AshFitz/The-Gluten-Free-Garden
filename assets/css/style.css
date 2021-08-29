@@ -4,12 +4,13 @@
     border: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 .text-center {
     text-align: center;
 }
-
-
-
 
 /*   Nav Styles  */
 nav {
@@ -34,7 +35,7 @@ ul {
 
 #nav-list li a {
     color: white;
-    text-decoration: none;
+    
 }
 
 #nav-list li a:hover {
@@ -152,10 +153,7 @@ h1 {
 /*  Footer Styles  */
 
 footer {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    display: flex;
     background-color: rgb(0, 255, 13);
     color: white;
     text-align: center;
