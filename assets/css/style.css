@@ -208,12 +208,15 @@ th {
 }
 
 tr, td {
-    border: 1px solid #fff;
     text-align: center;
     width: 30%;
     color: #fff;
     font-size: 25px;  
     padding: 10px;
+}
+
+#the-garden {
+    background: linear-gradient(to bottom, rgb(77 100 114) 0%, rgb(77 100 114 / 22%) 100%), url(../images/the-garden.jpg) no-repeat center 53%;
 }
 
 
