@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
+html {
+    scroll-behavior: smooth;
+  }
+  
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -16,6 +20,10 @@ a {
 
 .text-center {
     text-align: center;
+}
+
+.padding-container {
+    padding: 0 400px 0 400px !important;
 }
 
 /*   Nav Styles  */
