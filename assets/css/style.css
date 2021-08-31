@@ -32,7 +32,7 @@ nav {
 
 }
 
-ul {
+nav ul {
     display: inline-block;
     float: right;
     padding: 65px 0;
@@ -216,7 +216,7 @@ tr, td {
 }
 
 #the-garden {
-    background: linear-gradient(to bottom, rgb(77 100 114) 0%, rgb(77 100 114 / 22%) 100%), url(../images/the-garden.jpg) no-repeat center 53%;
+    background: linear-gradient(to bottom, rgb(77 100 114) 0%, rgb(77 100 114 / 22%) 100%), url(../images/the-garden.jpg) no-repeat center 49%;
 }
 
 
@@ -239,13 +239,58 @@ tr, td {
     color: #fff;
 }
 
+#form-styling {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
 
+input {
+    margin: 5px;
+    width: 300px;
+    align-self: center;
+    height: 30px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+label {
+    margin: 5px;
+}
+
+#button-style {
+    margin: 50px 0 50px 0;
+    width: 200px;
+    align-self: center;
+    height: auto;
+    text-align: center;
+}
 
 /*  Footer Styles  */
 
 footer {
-    display: flex;
-    background-color: rgb(76, 86, 88);
-    color: white;
+    height: 150px;
+    background-color: #304053;
+}
+
+
+footer ul {
+    justify-content: center;
+    background-color: inherit;
+}
+
+.social-media {
     text-align: center;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: #fff;
 }
