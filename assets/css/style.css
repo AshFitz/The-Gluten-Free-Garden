@@ -2,6 +2,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 
 body {
@@ -23,7 +24,7 @@ a {
 }
 
 .padding-container {
-    padding: 0 400px 0 400px !important;
+    padding: 0 200px 0 200px !important;
 }
 
 /*   Nav Styles  */
@@ -52,8 +53,8 @@ nav ul {
     
 }
 
-#nav-list li a:hover {
-    color: brown;   
+#nav-list li a:hover { 
+    color:  #b6774c;   
 }
 
 #logo {
@@ -225,18 +226,89 @@ tr, td {
 
 /*  Recipes Styles  */
 
-.headings {
+#recipe-heading  {
     text-align: center;
     font-size: 40px;
-    color: #fff;
+    color: black;
     padding-bottom: 150px;
     padding-top: 165px;
 }
+
+.recipe-sub-heading{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.recipe-right{
+    float: right;
+}
+
+.recipe-container-left {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+.recipe-container-right {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+.recipe-text-left {
+    width: 100%;
+    float: left;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+.recipe-text-right {
+    width: 30%;
+    float: right;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+.recipe-img {
+    height: 100%;
+    border-radius: 50%;
+    width: 100%;
+    float: left;
+    padding-left: 0;
+}
+
+#recipes {
+    padding-bottom: 300px!important;
+}
+
+#seed-bread-image {
+    background:url('../images/seed-bread.jpg') center center/cover no-repeat;
+}
+
+.circle-container {
+    width: 250px;
+    height: 250px;
+    padding: 15px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
 
 /*  Masterclass Styles  */
 
 .text-white {
     color: #fff;
+}
+
+#master-heading {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    padding-bottom: 150px;
+    padding-top: 165px;
 }
 
 #form-styling {
