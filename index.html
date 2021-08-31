@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav>
-        <a><img src=".//assets/images/logo.png" alt="logo" id="logo"></a>
+        <a><img src="/assets/images/logo.png" alt="logo" id="logo"></a>
 
         <ul id="nav-list">
             <li>
@@ -103,44 +103,59 @@
 
      <!-- Recipes Section  -->
     <section class="padding-container" id="recipes">
-        <div> 
-            <h2 class="headings">Recipes</h2>
-
+        <h2 id="recipe-heading">Recipes</h2>
+        <div class="container-test">
             <div>
-                <h3>Mulit-Seed Loaf</h3>   
+                <h3 class="recipe-sub-heading">Mulit-Seed Loaf</h3>   
             </div>
-            <div>
-                <h4>Ingredients</h4>
-                <ul>
-                    <li>Gluten free flour 450g</li>
-                    <li>Salt 1 tbsp</li>
-                    <li>Yeast 2 tbsp</li>
-                    <li>Olive oil 6 tbsp</li>
-                    <li>Free Range Eggs 2 + 1 Beaten for Egg Wash</li>
-                    <li>Full Fat Milk 310ml</li>
-                    <li> Caster Sugar 1tbsp</li>
-                    <li>Cider Vinegar tsp</li>
-                    <li>Mixed Seeds 4 tbsp</li>
-                </ul>
+    
+            <div class="recipe-container-left">
+                <div class="recipe-text-right">
+                    <hr>
+                    <h4 class="">Ingredients</h4>
+                    <ul>
+                        <li>Gluten free flour 450g</li>
+                        <li>Salt 1 tbsp</li>
+                        <li>Yeast 2 tbsp</li>
+                        <li>Olive oil 6 tbsp</li>
+                        <li>Free Range Eggs 2</li>
+                        <li>Full Fat Milk 310ml</li>
+                        <li>Caster Sugar 1tbsp</li>
+                        <li>Cider Vinegar tsp</li>
+                        <li>Mixed Seeds 4 tbsp</li>
+                    </ul>
+                </div>
+            </div>    
+                
+            <div class="recipe-container-right">
+                <div class="recipe-text-left">
+                    <hr>
+                    <h4 class="steps-style">Steps</h4>
+                    <ol class="steps-style">  
+                        <li>Grease and line a 900g/2lb loaf tin.</li>
+                        <li>Place the flour into a free-standing food mixer fixed with the balloon whisk attachment.</li>
+                        <li>Add the salt, sugar and yeast in three separate piles.</li>
+                        <li>Mix together the milk, vinegar, oil, and two eggs in a jug.</li>
+                        <li>Pour the liquid into the mixing bowl and add the seeds.</li>
+                        <li>witch on the mixer and whisk the ingredients for about 3-4 minutes.</li>
+                        <li>Put the batter into the prepared tin, cover with oiled cling film and leave to prove for about one hour, or until doubled in size.</li>
+                        <li>Preheat the oven to 180C. Bake for about 35-45 minutes. Cover with foil after ten minutes.</li>
+                        <li>Remove from the oven, leave to cool on a wire rack.</li>
+                    </ol>   
+                </div>
             </div>
-            <div>
-                <h4>Steps</h4>
-                <ol>
-                    <li>Grease and line a 900g/2lb loaf tin.</li>
-                    <li>Place the flour into a free-standing food mixer fixed with the balloon whisk attachment.</li>
-                    <li>Add the salt, sugar and yeast in three separate piles.</li>
-                    <li>Mix together the milk, vinegar, oil, and two eggs in a jug.</li>
-                    <li>Pour the liquid into the mixing bowl and add the seeds.</li>
-                    <li>witch on the mixer and whisk the ingredients for about 3-4 minutes.</li>
-                    <li>Put the batter into the prepared tin, cover with oiled cling film and leave to prove for about one hour, or until doubled in size.</li>
-                    <li>Preheat the oven to 180C. Bake for about 35-45 minutes. Cover with foil after ten minutes.</li>
-                    <li>About ten minutes before the end of the cooking time, brush the loaf with egg wash (beaten egg) and sprinkle over the seeds.</li>
-                    <li>Remove from the oven, leave to cool on a wire rack.</li>
-                </ol>
+            
+            <div id="recipe-image">
+                <div class="circle-container">
+                    <div id="seed-bread-image" class="recipe-img"></div>
+                </div>
             </div>
         </div>
+        
 
-        <div class=""> 
+
+
+        <!-- <div class=""> 
             <div>
                 <h3>Pizza</h3>   
             </div>
@@ -175,7 +190,7 @@
                     <li>Finish the bases with a thin layer of the sauce and torn up mozzarella(You can add any other desired toppings). Place the baking sheets on top of the hot baking sheets in the oven and cook for 8 -10 mins or until crisp around the edges.</li>
                 </ol>
             </div>
-        </div>
+        </div> -->
     </section>
 
 
@@ -183,7 +198,7 @@
     <section class="padding-container bg-color" id="masterclass">
         <form class="text-white">
         <div id="form-styling">
-            <h2 class="headings">Sign up to our Masterclass!</h2>
+            <h2 id="master-heading">Sign up to our Masterclass!</h2>
             
                 <label for="first-name">First Name</label>
                 <input type="text" name="first-name" required>
