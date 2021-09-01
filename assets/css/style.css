@@ -236,11 +236,17 @@ tr, td {
 
 .recipe-sub-heading{
     text-align: center;
+    padding-top: 50px;
     padding-bottom: 20px;
 }
 
 .recipe-right{
     float: right;
+}
+
+.recipe-main-container {
+    height:500px;
+    margin-bottom: 50px;
 }
 
 .recipe-container-left {
@@ -258,14 +264,12 @@ tr, td {
 .recipe-text-left {
     width: 100%;
     float: left;
-    line-height: 20px;
     margin-bottom: 50px;
 }
 
 .recipe-text-right {
     width: 30%;
     float: right;
-    line-height: 20px;
     margin-bottom: 50px;
 }
 
@@ -282,8 +286,13 @@ tr, td {
 }
 
 #seed-bread-image {
-    background:url('../images/seed-bread.jpg') center center/cover no-repeat;
+    background:url('../images/bread.jpg') center center/cover no-repeat;
 }
+
+#pizza-image {
+    background:url('../images/pizza.jpg') center center/cover no-repeat;
+}
+
 
 .circle-container {
     width: 250px;
