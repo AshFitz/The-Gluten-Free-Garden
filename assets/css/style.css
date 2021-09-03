@@ -64,7 +64,7 @@ nav ul {
 }
 
 #nav-list li a:hover { 
-    color:  #b6774c;   
+    color:  #4d6472;   
 }
 
 #logo {
@@ -291,6 +291,7 @@ tr, td {
 
 #brownie-image{
     background:url('../images/brownie.jpg') center center/cover no-repeat;
+}
 
 .circle-container {
     width: 250px;
