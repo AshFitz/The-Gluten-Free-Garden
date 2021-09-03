@@ -24,7 +24,9 @@ a {
 }
 
 .padding-container {
-    padding: 0 200px 0 200px !important;
+    padding-left: 200px;
+    padding-right: 200px;
+
 }
 
 hr {
@@ -138,7 +140,6 @@ button {
 /*  About Us Section Styles  */
 
 #about-us {
-    margin-top: 200px;
     margin-bottom: 200px;
 }
 
@@ -147,6 +148,7 @@ button {
     font-size: 40px;
     color: #000;
     padding-bottom: 10px;
+    padding-top: 200px;
 }
 
 #about-text {
@@ -288,7 +290,7 @@ tr, td {
 }
 
 #recipes {
-    padding-bottom: 300px!important;
+    padding-bottom: 300px;
 }
 
 #seed-bread-image {
@@ -317,12 +319,16 @@ tr, td {
     color: #fff;
 }
 
+#masterclass {
+    padding-bottom:200px;
+}
+
 #master-heading {
     text-align: center;
     font-size: 40px;
     color: #fff;
-    padding-bottom: 150px;
-    padding-top: 165px;
+    padding-bottom: 10px;
+    padding-top: 200px;
 }
 
 #form-styling {
@@ -330,6 +336,10 @@ tr, td {
     flex-direction: column;
     text-align: center;
     justify-content: center;
+}
+
+#form-label-spacing {
+    padding-top: 10px;
 }
 
 input {
@@ -363,10 +373,21 @@ label {
     text-align: center;
 }
 
+input::selection {
+    background-color: transparent !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #fff;
+  -webkit-box-shadow: 0 0 0px 1000px rgba(0, 0, 0, 0) inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
 /*  Footer Styles  */
 
 footer {
-    height: 150px;
     background-color: #9B6A6C;
 }
 
@@ -385,8 +406,7 @@ footer ul {
 }
 
 .social-media i {
-    font-size: 200%;
-    margin: 1%;
-    padding: 5%;
+    font-size: 2rem;
+    padding: 2.25rem;
     color: #fff;
 }
