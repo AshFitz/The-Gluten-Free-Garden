@@ -289,6 +289,9 @@ tr, td {
     background:url('../images/pizza-2.jpg') center center/cover no-repeat;
 }
 
+#brownie-image{
+    background:url('../images/brownie.jpg') center center/cover no-repeat;
+
 .circle-container {
     width: 250px;
     height: 250px;
