@@ -30,7 +30,7 @@
     * I want users to understand who we are.
     * I want users to have more information on being gluten free
     * I want users to have gluten free recipes available to them.
-    * I want to be able to update recipes anf facts regulary.
+    * I want to be able to update recipes and facts regularly.
 
 * As a site user:
     * I want to know about the site owner and what they have to offer
@@ -38,11 +38,11 @@
     * I want to access recipes
     * I want to be able to make contact to be educated further
 
-### User Requirments and Expectations:
+### User Requirements  and Expectations:
 <p> A gluten free diet has become extremly popular in recent years. Users need easy access to educate them on what this means and how to maintain a gluten free diet. Users will expect beneficial information within a small amount of content. To be provided with a great user experience and a site that is easily navigated.
 </p>
 
-### Requirments:
+### Requirements:
 * Consume beneficial information on being gluten free and why.
 * Easily follow recipe recommendations.
 * A site that is easy to navigate and appealing.
@@ -60,8 +60,26 @@
 
 ## Design Choices:
 <p>
-The design of the site needs to draw the customer in to ensure they stay and view what there is to be offered. The colours need to be appealing with relevant images to compliment them. The content must not overload the user and be educational. The design will ensure the site is easily navigated which will result in users returning.
+The design of the site needs to draw the user in to ensure they stay and view what we to offer. The colours need to be appealing with relevant images to compliment them. The content must not overload the user and be educational. The design will ensure the site is easily navigated which will result in users returning.
 </p>
+
+### Fonts: 
+* [Roboto](https://fonts.google.com/specimen/Roboto)
+<p> I chose this font for the webste as it is easily readable and compliments the color scheme and content well.
+</p>
+
+### Icons: 
+<p> I have used icons from font-awsome. I used these for my socail media links as they are visually appealing and simple.
+</p>
+
+### Colours:
+<p> I chose the colours below because they suit the theme of the site, food and a garden. They compliment themselves, the content and the images well. The content is clearly readable and the site navigates well due to the colours. It increases the appeal of the wesbsite and UX.
+</p>
+
+* Primary Colour: #fff - White, This colour was used for the nav bar, the logo, the landing text, the fun facts texts, form text and footer icons.
+* Secondary Colour #000 - Black, This colour was used for the about us text and the recipes text 
+* Tertiary Colour: #4d6472 - A Blue/Grey, This colour was used for the fun facts and form background colour.
+* Quaternary Colour: #9B6A6C - A Dusky Pink, This colour was used for the nav and footer background colour. It was also used under each h2.
 
 
 
@@ -104,3 +122,9 @@ This web application utilises a navigation bar, this improves the users experien
 - _The Footer_
 
 ### Features Left To Implement
+
+
+//ref 
+https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers/
+
+for input focus background colour change.
