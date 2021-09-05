@@ -81,11 +81,34 @@ The design of the site needs to draw the user in to ensure they stay and view wh
 * Tertiary Colour: #4d6472 - A Blue/Grey, This colour was used for the fun facts and form background colour.
 * Quaternary Colour: #9B6A6C - A Dusky Pink, This colour was used for the nav and footer background colour. It was also used under each h2.
 
+### Images: 
+<p> The images i used on the website complimented the content and the colour. The images were in contrast with the theme of food and a garden. The images were sourced from  <a href="https://unsplash.com/" target="_blank">Unsplash</a> and <a href="https://pexels.com/" target="_blank">Pexels</a>, which are high quality and completely free stock photos.
+</p>
 
+### Wireframes: 
+<p>
+</p>
 
+## Features:
 
+### Features that have been developed:
+* <p></p>
+* <p></p>
+* <p></p>
+* <p></p>
 
+### Features that will be implemented in the future:
+* <p></p>
+* <p></p>
+* <p></p>
+* <p></p>
 
+## Planning and Testing:
+
+### Planning:
+<p></p>
+
+#### Feature Testing:
 
 
 
