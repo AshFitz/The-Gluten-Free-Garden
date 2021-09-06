@@ -75,6 +75,56 @@ nav ul {
     padding-left: 0.625rem;
 }
 
+#image404 {
+    background-image: url(../images/tree.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#landing-text-404 {
+    position: relative;
+    bottom: 56.938rem;
+    left: 74.375rem;
+    right: 0;
+    color: white;
+    font-size: 5rem;
+}
+
+#landing-sub-text-404 {
+    position: relative;
+    bottom: 55.063rem;
+    left: 61.188rem;
+    right: 0;
+    color: white;
+    font-size: 5rem;
+}
+
+#landing-paragraph-404 {
+    position: relative;
+    bottom: 51.25rem;
+    color: white;
+    left: 41.75rem;
+    font-size: 2rem;
+}
+
+#anchor-button-404 {
+    display: inline-block;
+    border: solid;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    background: #006bed00;
+    border-color: #fff;
+    border-radius: 0.938rem;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    top: 58.875rem;
+    right: 76.038rem;
+    position: absolute;
+}
 
 /*   Landing Styles  */
 
@@ -401,6 +451,57 @@ li a i {
     .anchor-button {
         top: 32.75rem;
     }
+
+    #image404 {
+        background-image: url(../images/tree.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    
+    #landing-text-404 {
+        position: relative;
+        bottom: 43.188rem;
+        left: 53.75rem;
+        right: 0;
+        color: white;
+        font-size: 5rem;
+    }
+    
+    #landing-sub-text-404 {
+        position: relative;
+        bottom: 43.188rem;
+        left: 41.188rem;
+        right: 0;
+        color: white;
+        font-size: 5rem;
+    }
+    
+    #landing-paragraph-404 {
+        position: relative;
+        bottom: 40rem;
+        color: white;
+        left: 24.875rem;
+        font-size: 2rem;
+    }
+    
+    #anchor-button-404 {
+        display: inline-block;
+        border: solid;
+        padding: 1rem 2rem;
+        text-decoration: none;
+        background: #006bed00;
+        border-color: #fff;
+        border-radius: 0.938rem;
+        color: #fff;
+        font-size: 1rem;
+        cursor: pointer;
+        text-align: center;
+        top: 45.875rem;
+        right: 56.238rem;
+        position: absolute;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -443,6 +544,37 @@ li a i {
         padding-left: 6.25rem;
         padding-right: 6.25rem;
     }
+
+    #landing-text-404 {
+        bottom: 53.813rem;
+        left: 28.125rem;
+        width: max-content;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    
+    #landing-sub-text-404 {
+        bottom: 53.188rem;
+        left: 16.188rem;
+        width: max-content;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    
+    #landing-paragraph-404 {
+        bottom: 49.813rem;
+        left: 6.688rem;
+        font-size: 1.4rem;
+        width: max-content;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    
+    #anchor-button-404 {
+        top: 52.075rem;
+        right: 27.238rem;
+    }
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -500,6 +632,36 @@ li a i {
     .anchor-button {
         top: 29.625rem;
         right: 19.063rem;
+    }
+
+    #landing-text-404 {
+        bottom: 53.813rem;
+        left: 18.125rem;
+        width: max-content;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    
+    #landing-sub-text-404 {
+        bottom: 53.188rem;
+        left: 5.563rem;
+        width: max-content;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    
+    #landing-paragraph-404 {
+        bottom: 49.813rem;
+        left: 4.438rem;
+        font-size: 1.1rem;
+        width: max-content;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    
+    #anchor-button-404 {
+        top: 32.075rem;
+        right: 21.238rem;        
     }
 }
 
@@ -638,6 +800,36 @@ li a i {
     #masterclass {
         padding-bottom: 0;
     }
+
+    #landing-text-404 {
+        bottom: 861px;
+        left: 290px;
+        width: max-content;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    
+    #landing-sub-text-404 {
+        bottom: 53.188rem;
+        left: 5.563rem;
+        width: max-content;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    
+    #landing-paragraph-404 {
+        bottom: 49.813rem;
+        left: 4.438rem;
+        font-size: 1.1rem;
+        width: max-content;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    
+    #anchor-button-404 {
+        top: 32.075rem;
+        right: 21.238rem;        
+    }
 }
 
 /*Iphone X*/
@@ -654,6 +846,37 @@ li a i {
         top: 24rem;
         left: 4.313rem;
         right: 4.313rem;
+    }
+
+    #landing-text-404 {
+        bottom: 32.188rem;
+        left: 10.5rem;
+        font-size: 1.4rem;
+        width: max-content;
+        margin-right: 0;
+        padding-right: 0;
+}
+    }
+    
+    #landing-sub-text-404 {
+        bottom: 31.563rem;
+        left: 6.875rem;
+        font-size: 1.4rem;
+        width: max-content;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    
+    #landing-paragraph-404 {
+        bottom: 31.125rem;
+        left: 0.5rem;
+        display: inline;
+        font-size: 0.9rem;
+    }
+    
+    #anchor-button-404 {
+        top: 28.075rem;
+        right: 8.038rem;     
     }
 }
 
@@ -674,6 +897,36 @@ li a i {
 
     nav ul {
         padding-right: 1.5rem;
+    }
+
+    #landing-text-404 {
+        bottom: 21.75rem;
+        font-size: 1.4rem;
+        left: 9.625rem;
+        width: max-content;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    
+    #landing-sub-text-404 {
+        bottom: 21.563rem;
+        left: 6.188rem;
+        font-size: 1.4rem;
+        width: max-content;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    
+    #landing-paragraph-404 {
+        bottom: 21.125rem;
+        left: 0.5;
+        display: inline;
+        font-size: 0.9rem;
+    }
+    
+    #anchor-button-404 {
+        top: 28.075rem;
+        right: 8.038rem;     
     }
 }
 
@@ -821,5 +1074,38 @@ li a i {
     .padding-top-headings {
         font-size: 1.8rem!important;
         padding-top: 8.75rem!important;
+    }
+
+    #landing-text-404 {
+        bottom: 21.75rem;
+        font-size: 1.4rem;
+        left: 8.75rem;
+        width: max-content;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    
+    #landing-sub-text-404 {
+        bottom: 21.563rem;
+        left: 4.938rem;
+        font-size: 1.4rem;
+        width: max-content;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    
+    #landing-paragraph-404 {
+        bottom: 19.813rem;
+        left: 1.188rem;
+        display: inline;
+        font-size: 1rem;
+        width: max-content;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    
+    #anchor-button-404 {
+        top: 23.075rem;
+        right: 5.638rem;     
     }
 }
