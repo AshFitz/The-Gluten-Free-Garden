@@ -48,7 +48,6 @@ nav {
 }
 
 nav ul {
-    display: inline-block;
     float: right;
     margin-left: auto;
     padding-top: 40px;
@@ -96,7 +95,6 @@ button {
     cursor: pointer;
     text-align: center;
 }
-
 
 #landing-img {
     background-image: url(../images/landing.jpg);
@@ -173,7 +171,6 @@ button {
 }
 
 
-
 /*  Facts Styles  */
 .bg-color {
     background-color: #4d6472;
@@ -185,23 +182,12 @@ button {
     color: #fff;
     padding-top: 200px;
     padding-bottom: 10px;
-
 }
 
 .paragraph-text {
     font-size: 25px;
     color: #fff;
     padding: 10px 0 15px 0;
-}
-
-.rounded-img {
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-}
-
-.facts-container {
-    padding: 0 400px 0 400px;
 }
 
 #table-list{
@@ -214,7 +200,6 @@ button {
 th {
     font-weight: 500;
     font-size: 2rem;
-    
 }
 
 tr, td {
@@ -249,7 +234,6 @@ tr, td {
 
 .recipe-container {
     display: flex;
-   
 }
 
 #recipe-last-text {
@@ -334,7 +318,6 @@ input {
     border: none;
     border-bottom: 2px solid #fff;
     outline: none;
-    background-color: tran;
     background-color: transparent;
     margin-bottom: 5vh;
     padding-top: 28px;
@@ -398,6 +381,7 @@ footer ul {
 }
 
 
+
 /*  Media Queries  */
 
 @media screen and (max-width: 1920px) {
@@ -449,6 +433,7 @@ footer ul {
     .padding-container {
         padding-left: 100px;
         padding-right: 100px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -508,7 +493,6 @@ footer ul {
         right: 305px;
     }
 }
-
 
 /* Iphone 6/7/8/plus */
 @media screen and (max-width: 414px) {
@@ -646,6 +630,7 @@ footer ul {
         padding-bottom: 0;
     }
 }
+
 /*Iphone X*/
 @media only screen and (max-width: 375px) and (max-height: 812px) {
     nav ul {
@@ -662,7 +647,6 @@ footer ul {
         right: 69px;
     }
 }
-
 
 /*Iphone 6/7/8*/
 @media screen and (max-width: 375px) and (max-height: 667px){
@@ -681,6 +665,7 @@ footer ul {
 
     nav ul {
         padding-right: 24px;
+    }
 }
 
 
