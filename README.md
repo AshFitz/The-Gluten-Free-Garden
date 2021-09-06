@@ -22,6 +22,7 @@
 * Educate and raise awareness about being gluten free.
 * Encourage users to sign up to our Masterclass to increase revenue.
 * Increase traffic on our social media accounts.
+* Have users using our own recipes at home.
 * Create loyal users.
 
 ### User Stories:
@@ -46,7 +47,7 @@
 * Consume beneficial information on being gluten free and why.
 * Easily follow recipe recommendations.
 * A site that is easy to navigate and appealing.
-* A site that can be accessed on multiple devises.
+* A site that can be accessed on multiple devices.
 * Allow users ability to contact us for more information.
 * Access our social media accounts.
 
@@ -69,7 +70,7 @@ The design of the site needs to draw the user in to ensure they stay and view wh
 </p>
 
 ### Icons: 
-<p> I have used icons from font-awsome. I used these for my socail media links as they are visually appealing and simple.
+<p> I have used icons from font-awsome. I used these for my social media links as they are visually appealing and simple.
 </p>
 
 ### Colours:
@@ -86,29 +87,48 @@ The design of the site needs to draw the user in to ensure they stay and view wh
 </p>
 
 ### Wireframes: 
-<p>
+<p> The wireframes were created in <a href="https://balsamiq.com/" target="_blank">balsamiq</a>. This helped me to plan the visual look of the website. I created wireframes for mobile, tablet and desktop.
 </p>
 
 ## Features:
 
 ### Features that have been developed:
-* <p></p>
-* <p></p>
-* <p></p>
-* <p></p>
+* <p> A navigation bar to easily access each section.</p>
+* <p> A find out more button to bring you to the about section of the website.</p>
+* <p> Induvidual section for the website.</p>
+* <p> A contact form to allow users to sign up to a Masterclass.</p>
+* <p> A footer with links to social media.</p>
 
 ### Features that will be implemented in the future:
-* <p></p>
-* <p></p>
-* <p></p>
-* <p></p>
+* <p> Create a products page where users can browse available goods.</p>
+* <p> A shopping cart where users can purchase gluten free food cooked in The Gluten Free Garden.</p>
+* <p> A review section so users can leave their feedback on our recipes.</p>
+* <p> A "My Journey" section where users can talk about their own personal journey being gluten free and what tips or suggestions they may have to offer.</p>
 
 ## Planning and Testing:
 
 ### Planning:
-<p></p>
+<p> The planning began by sketching the website on paper and then led to creating the wireframes. Creating the wireframes really helped me plan this project. It layed out what I wanted to achieve and you could visually see what would work and what wouldn't work.</p>
+
+<p> I started my project by creating the nav bar and the footer. I then continued onto each section seperatly using a check list to make sure I was making progress and not vering from the overall objectives. </p>
+
+<p> A part of my planning was using <a href="https://coolors.co/" target="_blank">coolors</a> to chose the correct colour palette.</p>
+
+<p> I used <a href="https://w3schools.com/" target="_blank">w3schools</a> to help with the basic structute of my nav and footer.</p>
+
+<p> Planning the content prooved to be relativly easy due to my experience being gluten free myself.</p>
 
 #### Feature Testing:
+
+### Bugs
+
+A bug that took me some time to resolve was when building my form, there was an auto fill happening on my google chrome, it would totally throw off my background colours for the form and I was spending so long trying to add styles to resolv it, it turned out the styling needed for this was ``` input:-webkit-autofill ``` ```` input:-webkit-autofill:hover ``` ``` input:-webkit-autofill:focus ``` this resolved the issues once setting the box shadow to transparent. This webkit was found on a comment solution on stack overflow.
+
+During the process of making this application I ran into a number of issues that proved to be very difficult for me to resolve due to me being new to html and css.
+
+The first major issue I ran into was with the Recipe section I wanted to have the section spread out into 3 div's, Ingredients and image and then the steps. I used the love running project as a base to work off and began to highly modify the code to suit my needs, but I found it extremely difficult to perfectly contain all the content, and there was a lot of overflow issues. In the end after spending a lot of time on this and being unable to resolve the issue, I reverted back to 3 divs containing each element, adding a container to the 3 divs and displaying them as flex, this then gave me more control! although it is still not perfect or how I had visioned it. It fits its purpose and displays the information necessary.
+
+
 
 
 
