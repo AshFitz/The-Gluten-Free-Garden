@@ -358,6 +358,7 @@ input:-webkit-autofill:focus {
 
 footer {
     background-color: #9B6A6C;
+    padding-bottom: 10px;
 }
 
 
@@ -377,9 +378,17 @@ footer ul {
 .social-media i {
     font-size: 2rem;
     padding: 2.25rem;
+    padding-bottom: 20px;
     color: #fff;
 }
 
+li a i {
+    transition: opacity 400ms ease 0s, transform 400ms ease 0s;
+}
+
+.social-media li a i:hover {
+    transform: scale(1.1);
+}
 
 
 /*  Media Queries  */
