@@ -122,13 +122,15 @@ The design of the site needs to draw the user in to ensure they stay and view wh
 
 ### Bugs
 
-A bug that took me some time to resolve was when building my form, there was an auto fill happening on my google chrome, it would totally throw off my background colours for the form and I was spending so long trying to add styles to resolv it, it turned out the styling needed for this was ``` input:-webkit-autofill ``` ```` input:-webkit-autofill:hover ``` ``` input:-webkit-autofill:focus ``` this resolved the issues once setting the box shadow to transparent. This webkit was found on a comment solution on stack overflow.
+<p>A bug that I spent some time on and difficult to resolve was within my form. The issue was within the input fields, when google chrome would prompt auto-fill, it would impact the background colour. I spent time attempting to debug this issue in dev tools with no resolution. I began to google this issue and found a potential solution on stack overflow. The styling that was needed was,  ``` input:-webkit-autofill ``` ```` input:-webkit-autofill:hover ``` ``` input:-webkit-autofill:focus ``` this resolved the issues when setting the box shadow to transparent.</p>
 
-During the process of making this application I ran into a number of issues that proved to be very difficult for me to resolve due to me being new to html and css.
+<p>During the process of making this application I ran into a number of issues that proved to be very difficult for me to resolve due to me being new to html and css.</p>
 
-The first major issue I ran into was with the Recipe section I wanted to have the section spread out into 3 div's, Ingredients and image and then the steps. I used the love running project as a base to work off and began to highly modify the code to suit my needs, but I found it extremely difficult to perfectly contain all the content, and there was a lot of overflow issues. In the end after spending a lot of time on this and being unable to resolve the issue, I reverted back to 3 divs containing each element, adding a container to the 3 divs and displaying them as flex, this then gave me more control! although it is still not perfect or how I had visioned it. It fits its purpose and displays the information necessary.
+<p>The first major issue I ran into was with the Recipe section. I wanted to have the section spread out into 3 div's, Ingredients, image and then the steps. I used the love running project as a base to work off and began to highly modify the code to suit my needs, but I found it extremely difficult to perfectly contain all the content. There was a lot of overflow issues. In the end after spending a lot of time on this and being unable to resolve the issue, I reverted back to 3 divs containing each element, adding a container to the 3 divs and displaying them as flex. This gave me more control although it is still not perfect or how I had envisioned it. It fits the purpose and displays the information necessary.</p>
 
+### Know Bugs
 
+<p> A current bug to highlight is the recipe section. It visually looks good however it is not entirely optimised. With more experience in the future I would expect it to be better. </p>
 
 
 
