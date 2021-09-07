@@ -127,13 +127,23 @@ The design of the site needs to draw the user in to ensure they stay and view wh
 
 #### Feature Testing:
 
+### Testing 
+
+<p> This project was validated using a HTML and CSS validator. An additional Lighthouse audit was conducted via chrome dev tools, this helped to improve best practices, and performance.</p>
+
+![Lighthouse](https://github.com/AshFitz/The-Gluten-Free-Garden/blob/main/assets/images/wireframes/TheGlutenFreeGarden-Lighthouse.PNG)
+
+<p> You can find an image to the html validation conducted <a href="https://github.com/AshFitz/The-Gluten-Free-Garden/blob/main/assets/images/wireframes/html_validation.PNG" target="_blank">Here</a></p>
+
+<p> You can also find the css validation <a href="https://github.com/AshFitz/The-Gluten-Free-Garden/blob/main/assets/images/wireframes/css_validation.PNG">Here</a></p>
+
 ### Bugs
 
-<p>A bug that I spent some time on and difficult to resolve was within my form. The issue was within the input fields, when google chrome would prompt auto-fill, it would impact the background colour. I spent time attempting to debug this issue in dev tools with no resolution. I began to google this issue and found a potential solution on stack overflow. The styling that was needed was,  ``` input:-webkit-autofill ``` ```` input:-webkit-autofill:hover ``` ``` input:-webkit-autofill:focus ``` this resolved the issues when setting the box shadow to transparent.</p>
+<p> A bug that I spent some time on and difficult to resolve was within my form. The issue was within the input fields, when google chrome would prompt auto-fill, it would impact the background colour. I spent time attempting to debug this issue in dev tools with no resolution. I began to google this issue and found a potential solution on stack overflow. The styling that was needed was,  ``` input:-webkit-autofill ``` ```` input:-webkit-autofill:hover ``` ``` input:-webkit-autofill:focus ``` this resolved the issues when setting the box shadow to transparent.</p>
 
-<p>During the process of making this application I ran into a number of issues that proved to be very difficult for me to resolve due to me being new to html and css.</p>
+<p> During the process of making this application I ran into a number of issues that proved to be very difficult for me to resolve due to me being new to html and css.</p>
 
-<p>The first major issue I ran into was with the Recipe section. I wanted to have the section spread out into 3 div's, Ingredients, image and then the steps. I used the love running project as a base to work off and began to highly modify the code to suit my needs, but I found it extremely difficult to perfectly contain all the content. There was a lot of overflow issues. In the end after spending a lot of time on this and being unable to resolve the issue, I reverted back to 3 divs containing each element, adding a container to the 3 divs and displaying them as flex. This gave me more control although it is still not perfect or how I had envisioned it. It fits the purpose and displays the information necessary.</p>
+<p> The first major issue I ran into was with the Recipe section. I wanted to have the section spread out into 3 div's, Ingredients, image and then the steps. I used the love running project as a base to work off and began to highly modify the code to suit my needs, but I found it extremely difficult to perfectly contain all the content. There was a lot of overflow issues. In the end after spending a lot of time on this and being unable to resolve the issue, I reverted back to 3 divs containing each element, adding a container to the 3 divs and displaying them as flex. This gave me more control although it is still not perfect or how I had envisioned it. It fits the purpose and displays the information necessary.</p>
 
 ## Know Bugs
 
@@ -154,8 +164,7 @@ The design of the site needs to draw the user in to ensure they stay and view wh
 
 <p> I would to say a big thank you to my mentor Gerry McBride, for his support and constant feedback throughout developing the website. </p>
 
-
-
+<p><strong>This project is for educational purposes only and was created as a first milestone project for Code Institutes full stack web development course.</strong></p>
 
 
 
