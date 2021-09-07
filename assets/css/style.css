@@ -802,33 +802,34 @@ li a i {
     }
 
     #landing-text-404 {
-        bottom: 861px;
-        left: 290px;
+        bottom: 531px;
+        left: 130px;
         width: max-content;
         margin-right: 0;
         padding-right: 0;
     }
     
     #landing-sub-text-404 {
-        bottom: 53.188rem;
-        left: 5.563rem;
+        font-size: 3rem;
+        bottom: 33.188rem;
+        left: 2.563rem;
         width: max-content;
         margin-right: 0;
         padding-right: 0;
     }
     
     #landing-paragraph-404 {
-        bottom: 49.813rem;
-        left: 4.438rem;
-        font-size: 1.1rem;
+        bottom: 31.813rem;
+        left: 2.438rem;
+        font-size: 0.9rem;
         width: max-content;
         margin-right: 0;
         padding-right: 0;
     }
     
     #anchor-button-404 {
-        top: 32.075rem;
-        right: 21.238rem;        
+        top: 28.075rem;
+        right: 9.238rem;        
     }
 }
 
@@ -855,7 +856,6 @@ li a i {
         width: max-content;
         margin-right: 0;
         padding-right: 0;
-}
     }
     
     #landing-sub-text-404 {
@@ -878,6 +878,7 @@ li a i {
         top: 28.075rem;
         right: 8.038rem;     
     }
+
 }
 
 /*Iphone 6/7/8*/
