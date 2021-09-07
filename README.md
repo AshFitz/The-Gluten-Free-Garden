@@ -90,8 +90,8 @@ The design of the site needs to draw the user in to ensure they stay and view wh
 <p> The wireframes were created in <a href="https://balsamiq.com/" target="_blank">balsamiq</a>. This helped me to plan the visual look of the website. I created wireframes for mobile, tablet and desktop.
 </p>
 
-[Desktop Wireframe](https://github.com/AshFitz/The-Gluten-Free-Garden/blob/main/assets/images/wireframes/Desktop_wireframe.png)
-[Tablet Wireframe](https://github.com/AshFitz/The-Gluten-Free-Garden/blob/main/assets/images/wireframes/Tablet_wireframe.png)
+[Desktop Wireframe](https://github.com/AshFitz/The-Gluten-Free-Garden/blob/main/assets/images/wireframes/Desktop_wireframe.png) |
+[Tablet Wireframe](https://github.com/AshFitz/The-Gluten-Free-Garden/blob/main/assets/images/wireframes/Tablet_wireframe.png) |
 [Mobile Wireframe](https://github.com/AshFitz/The-Gluten-Free-Garden/blob/main/assets/images/wireframes/Mobile_wireframe.png)
 
 ## Features:
