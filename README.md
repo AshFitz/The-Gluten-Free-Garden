@@ -139,7 +139,21 @@ The design of the site needs to draw the user in to ensure they stay and view wh
 
 ### Bugs
 
-<p> A bug that I spent some time on and difficult to resolve was within my form. The issue was within the input fields, when google chrome would prompt auto-fill, it would impact the background colour. I spent time attempting to debug this issue in dev tools with no resolution. I began to google this issue and found a potential solution on stack overflow. The styling that was needed was,  ``` input:-webkit-autofill ``` ```` input:-webkit-autofill:hover ``` ``` input:-webkit-autofill:focus ``` this resolved the issues when setting the box shadow to transparent.</p>
+<p> A bug that I spent some time on and difficult to resolve was within my form. The issue was within the input fields, when google chrome would prompt auto-fill, it would impact the background colour. I spent time attempting to debug this issue in dev tools with no resolution. I began to google this issue and found a potential solution on stack overflow. The styling that was needed was,  
+
+``` 
+input:-webkit-autofill
+``` 
+
+```` 
+input:-webkit-autofill:hover 
+``` 
+
+``` 
+input:-webkit-autofill:focus 
+``` 
+
+this resolved the issues when setting the box shadow to transparent.</p>
 
 <p> During the process of making this application I ran into a number of issues that proved to be very difficult for me to resolve due to me being new to html and css.</p>
 
