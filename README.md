@@ -135,10 +135,13 @@ The design of the site needs to draw the user in to ensure they stay and view wh
 
 <p>The first major issue I ran into was with the Recipe section. I wanted to have the section spread out into 3 div's, Ingredients, image and then the steps. I used the love running project as a base to work off and began to highly modify the code to suit my needs, but I found it extremely difficult to perfectly contain all the content. There was a lot of overflow issues. In the end after spending a lot of time on this and being unable to resolve the issue, I reverted back to 3 divs containing each element, adding a container to the 3 divs and displaying them as flex. This gave me more control although it is still not perfect or how I had envisioned it. It fits the purpose and displays the information necessary.</p>
 
-### Know Bugs
+## Know Bugs
 
 <p> A current bug to highlight is the recipe section. It visually looks good however it is not entirely optimised. With more experience in the future I would expect it to be better. </p>
 
+### References
+
+<p> The images used throughhout the website are from https://unsplash.com/ and https://www.pexels.com/</p>
 
 
 
@@ -154,7 +157,3 @@ The design of the site needs to draw the user in to ensure they stay and view wh
 
 
 
-
-https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers/
-
-for input focus background colour change.
