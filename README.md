@@ -143,13 +143,9 @@ The design of the site needs to draw the user in to ensure they stay and view wh
 
 ``` 
 input:-webkit-autofill
-``` 
 
-```` 
 input:-webkit-autofill:hover 
-``` 
 
-``` 
 input:-webkit-autofill:focus 
 ``` 
 
