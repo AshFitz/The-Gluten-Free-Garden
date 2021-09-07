@@ -89,6 +89,9 @@ The design of the site needs to draw the user in to ensure they stay and view wh
 ### Wireframes: 
 <p> The wireframes were created in <a href="https://balsamiq.com/" target="_blank">balsamiq</a>. This helped me to plan the visual look of the website. I created wireframes for mobile, tablet and desktop.
 </p>
+* [Desktop Wireframe](https://raw.githubusercontent.com/AshFitz/The-Gluten-Free-Garden/main/assets/images/wireframes/Desktop_wireframe.png)
+* [Tablet Wireframe](https://raw.githubusercontent.com/AshFitz/The-Gluten-Free-Garden/main/assets/images/wireframes/Tablet_wireframe.png)
+* [Mobile Wireframe](https://raw.githubusercontent.com/AshFitz/The-Gluten-Free-Garden/main/assets/images/wireframes/Mobile_wireframe.png)
 
 ## Features:
 
@@ -148,28 +151,6 @@ The design of the site needs to draw the user in to ensure they stay and view wh
 
 
 
-## Features
-
-### Existing Features
-
-- _Navigation Bar_
-This web application utilises a navigation bar, this improves the users experience and flow. On the nagviagtion bar there are links for the
-- _The landing page image_
-
-- _About Us Section_
-
-- _Facts & Myths Section_
-
-- _Recipes Section_
-
-- _Masterclass Sign Up Section_
-
-- _The Footer_
-
-### Features Left To Implement
-
-
-//ref 
 https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers/
 
 for input focus background colour change.
