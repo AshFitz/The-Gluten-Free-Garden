@@ -141,7 +141,13 @@ The design of the site needs to draw the user in to ensure they stay and view wh
 
 ### References
 
-<p> The images used throughhout the website are from https://unsplash.com/ and https://www.pexels.com/</p>
+<p> The images used throughout the website are from https://unsplash.com/ and https://www.pexels.com/</p>
+
+<p> Th recipes used within the recipes section are from https://www.bbcgoodfood.com/</p>
+
+<p> The icons used for the social media links are from https://fontawesome.com/</p>
+
+<p> The colours used from the website are from https://coolors.co/</p>
 
 
 
