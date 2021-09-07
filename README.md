@@ -150,8 +150,9 @@ The design of the site needs to draw the user in to ensure they stay and view wh
 <p> The colours used from the website are from https://coolors.co/</p>
 
 
+### Acknowledgements
 
-
+<p> I would to say a big thank you to my mentor Gerry McBride, for his support and constant feedback throughout developing the website. </p>
 
 
 
