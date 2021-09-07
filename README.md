@@ -37,10 +37,10 @@
     * I want to be able to update recipes and facts regularly.
 
 * As a site user:
-    * I want to know about the site owner and what they have to offer
-    * I want to be educated on being gluten free
-    * I want to access recipes
-    * I want to be able to make contact to be educated further
+    * I want to know about the site owner and what they have to offer.
+    * I want to be educated on being gluten free.
+    * I want to access recipes.
+    * I want to be able to make contact to be educated further.
 
 ### User Requirements  and Expectations:
 <p> A gluten free diet has become extremly popular in recent years. Users need easy access to educate them on what this means and how to maintain a gluten free diet. Users will expect beneficial information within a small amount of content. To be provided with a great user experience and a site that is easily navigated.
@@ -81,7 +81,7 @@ The design of the site needs to draw the user in to ensure they stay and view wh
 </p>
 
 * Primary Colour: #fff - White, This colour was used for the nav bar, the logo, the landing text, the fun facts texts, form text and footer icons.
-* Secondary Colour #000 - Black, This colour was used for the about us text and the recipes text 
+* Secondary Colour #000 - Black, This colour was used for the about us text and the recipes text.
 * Tertiary Colour: #4d6472 - A Blue/Grey, This colour was used for the fun facts and form background colour.
 * Quaternary Colour: #9B6A6C - A Dusky Pink, This colour was used for the nav and footer background colour. It was also used under each h2.
 
@@ -129,9 +129,9 @@ The design of the site needs to draw the user in to ensure they stay and view wh
 
 ### Testing 
 
-<p> The testing carried out on this project were conducted using google chrome dev tools and basic user testing by myself to verify functionality.
+<p> The testing carried out on this project was conducted using google chrome dev tools and basic user testing by myself to verify functionality.
 
-I originally built this project to be on a desktop screen and then tablet and mobile, this was my first time attempting to build my own project and I heavily relied on devtools to assist with the styling and media breakpoints.
+I originally built this project to be on a desktop screen and then tablet and mobile. This was my first time attempting to build my own project and I heavily relied on dev tools to assist with the styling and media breakpoints.
 
 The areas this project should be most visible on are as follows.
 
@@ -150,7 +150,22 @@ small laptop 1280x 802
 All testing was validated when each feature was added to confirm the functionality had not changed after a significant piece of code or change was added.
 </p>
 
-<p> This project was validated using a HTML and CSS validator. An additional Lighthouse audit was conducted via chrome dev tools, this helped to improve best practices, and performance.</p>
+<p> The user testing that was conducted during the development of this project were as follows:
+
+As a user who lands on the main page, I click a nav anchor link. I expect the navigation to bring me to where It says it will bring me. This test has passed as it brings me to the section related to each anchor tag.
+
+As a user I click on the logo on the navbar. I expect something to happen, It does and it reloads the index.html page. This test passes.
+
+As a user who is curious about the button on the landing page. I click it and I expect for something to happen. This test passes as the button brings me to a new section as expected.
+
+As a user who wants to submit my details to the masterclass. I fill out the details and click submit, the page reloads and I asume it has taken my information. This test passes as it reloads the page and my details are no longer in the fields. This indicates to me something positive has happened.
+
+As a user who wants to click the social media icons. I click the icons and I am brought to an external site as I would expect. This test has passed.
+
+</p>
+
+
+<p> This project was validated using a HTML and CSS validator. An additional Lighthouse audit was conducted via chrome dev tools. This helped to improve best practices and performance.</p>
 
 ![Lighthouse](https://github.com/AshFitz/The-Gluten-Free-Garden/blob/main/assets/images/wireframes/TheGlutenFreeGarden-Lighthouse.PNG)
 
@@ -195,7 +210,7 @@ this resolved the issues when setting the box shadow to transparent.</p>
 
 <p> I would to say a big thank you to my mentor Gerry McBride, for his support and constant feedback throughout developing the website. </p>
 
-<p><strong>This project is for educational purposes only and was created as a first milestone project for Code Institutes full stack web development course.</strong></p>
+<p><strong>This project is for educational purposes only. It was created as a first milestone project for Code Institutes full stack web development course.</strong></p>
 
 
 
