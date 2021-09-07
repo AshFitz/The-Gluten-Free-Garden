@@ -135,17 +135,17 @@ I originally built this project to be on a desktop screen and then tablet and mo
 
 The areas this project should be most visible on are as follows.
 
-Iphone 5 s/e
-Iphone 6/7/8
-Iphone 6/7/8 plus
+- Iphone 5 s/e
+- Iphone 6/7/8
+- Iphone 6/7/8 plus
 
-Iphone x
-Ipad
-Ipad pro
+- Iphone x
+- Ipad
+- Ipad pro
 
-small laptop 1280x 802
-24 inch screen - 1920 x 1080
-1440p screen 2560 x 1440
+- small laptop 1280x 802
+- 24 inch screen - 1920 x 1080
+- 1440p screen 2560 x 1440
 
 All testing was validated when each feature was added to confirm the functionality had not changed after a significant piece of code or change was added.
 </p>
